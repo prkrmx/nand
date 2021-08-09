@@ -1,0 +1,294 @@
+#-----------------------------------------------------------
+# Vivado v2021.1 (64-bit)
+# SW Build 3247384 on Thu Jun 10 19:36:07 MDT 2021
+# IP Build 3246043 on Fri Jun 11 00:30:35 MDT 2021
+# Start of session at: Sun Aug  8 11:55:49 2021
+# Process ID: 31390
+# Current directory: /home/max/rp_ref/nand/vivado/nand.runs/main_dsn_axi_gpio_1_0_synth_1
+# Command line: vivado -log main_dsn_axi_gpio_1_0.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source main_dsn_axi_gpio_1_0.tcl
+# Log file: /home/max/rp_ref/nand/vivado/nand.runs/main_dsn_axi_gpio_1_0_synth_1/main_dsn_axi_gpio_1_0.vds
+# Journal file: /home/max/rp_ref/nand/vivado/nand.runs/main_dsn_axi_gpio_1_0_synth_1/vivado.jou
+#-----------------------------------------------------------
+source main_dsn_axi_gpio_1_0.tcl -notrace
+Command: synth_design -top main_dsn_axi_gpio_1_0 -part xc7z045ffg900-2 -mode out_of_context
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7z045'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7z045'
+INFO: [Device 21-403] Loading part xc7z045ffg900-2
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 4 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 31627
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 2466.289 ; gain = 0.000 ; free physical = 10587 ; free virtual = 19576
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'main_dsn_axi_gpio_1_0' [/home/max/rp_ref/nand/vivado/nand.gen/sources_1/bd/main_dsn/ip/main_dsn_axi_gpio_1_0/synth/main_dsn_axi_gpio_1_0.vhd:84]
+	Parameter C_FAMILY bound to: zynq - type: string 
+	Parameter C_S_AXI_ADDR_WIDTH bound to: 9 - type: integer 
+	Parameter C_S_AXI_DATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_GPIO_WIDTH bound to: 1 - type: integer 
+	Parameter C_GPIO2_WIDTH bound to: 32 - type: integer 
+	Parameter C_ALL_INPUTS bound to: 0 - type: integer 
+	Parameter C_ALL_INPUTS_2 bound to: 0 - type: integer 
+	Parameter C_ALL_OUTPUTS bound to: 1 - type: integer 
+	Parameter C_ALL_OUTPUTS_2 bound to: 0 - type: integer 
+	Parameter C_INTERRUPT_PRESENT bound to: 0 - type: integer 
+	Parameter C_DOUT_DEFAULT bound to: 32'b00000000000000000000000000000000 
+	Parameter C_TRI_DEFAULT bound to: 32'b11111111111111111111111111111111 
+	Parameter C_IS_DUAL bound to: 0 - type: integer 
+	Parameter C_DOUT_DEFAULT_2 bound to: 32'b00000000000000000000000000000000 
+	Parameter C_TRI_DEFAULT_2 bound to: 32'b11111111111111111111111111111111 
+INFO: [Synth 8-3491] module 'axi_gpio' declared at '/home/max/rp_ref/nand/vivado/nand.gen/sources_1/bd/main_dsn/ipshared/65b4/hdl/axi_gpio_v2_0_vh_rfs.vhd:1265' bound to instance 'U0' of component 'axi_gpio' [/home/max/rp_ref/nand/vivado/nand.gen/sources_1/bd/main_dsn/ip/main_dsn_axi_gpio_1_0/synth/main_dsn_axi_gpio_1_0.vhd:168]
+INFO: [Synth 8-638] synthesizing module 'axi_gpio' [/home/max/rp_ref/nand/vivado/nand.gen/sources_1/bd/main_dsn/ipshared/65b4/hdl/axi_gpio_v2_0_vh_rfs.vhd:1351]
+INFO: [Synth 8-638] synthesizing module 'axi_lite_ipif' [/home/max/rp_ref/nand/vivado/nand.gen/sources_1/bd/main_dsn/ipshared/66ea/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:2948]
+INFO: [Synth 8-638] synthesizing module 'slave_attachment' [/home/max/rp_ref/nand/vivado/nand.gen/sources_1/bd/main_dsn/ipshared/66ea/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:2341]
+INFO: [Synth 8-638] synthesizing module 'address_decoder' [/home/max/rp_ref/nand/vivado/nand.gen/sources_1/bd/main_dsn/ipshared/66ea/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1775]
+INFO: [Synth 8-638] synthesizing module 'pselect_f' [/home/max/rp_ref/nand/vivado/nand.gen/sources_1/bd/main_dsn/ipshared/66ea/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-256] done synthesizing module 'pselect_f' (1#1) [/home/max/rp_ref/nand/vivado/nand.gen/sources_1/bd/main_dsn/ipshared/66ea/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-638] synthesizing module 'pselect_f__parameterized0' [/home/max/rp_ref/nand/vivado/nand.gen/sources_1/bd/main_dsn/ipshared/66ea/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-256] done synthesizing module 'pselect_f__parameterized0' (1#1) [/home/max/rp_ref/nand/vivado/nand.gen/sources_1/bd/main_dsn/ipshared/66ea/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-638] synthesizing module 'pselect_f__parameterized1' [/home/max/rp_ref/nand/vivado/nand.gen/sources_1/bd/main_dsn/ipshared/66ea/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-256] done synthesizing module 'pselect_f__parameterized1' (1#1) [/home/max/rp_ref/nand/vivado/nand.gen/sources_1/bd/main_dsn/ipshared/66ea/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-638] synthesizing module 'pselect_f__parameterized2' [/home/max/rp_ref/nand/vivado/nand.gen/sources_1/bd/main_dsn/ipshared/66ea/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-256] done synthesizing module 'pselect_f__parameterized2' (1#1) [/home/max/rp_ref/nand/vivado/nand.gen/sources_1/bd/main_dsn/ipshared/66ea/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-256] done synthesizing module 'address_decoder' (2#1) [/home/max/rp_ref/nand/vivado/nand.gen/sources_1/bd/main_dsn/ipshared/66ea/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1775]
+INFO: [Synth 8-226] default block is never used [/home/max/rp_ref/nand/vivado/nand.gen/sources_1/bd/main_dsn/ipshared/66ea/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:2550]
+INFO: [Synth 8-256] done synthesizing module 'slave_attachment' (3#1) [/home/max/rp_ref/nand/vivado/nand.gen/sources_1/bd/main_dsn/ipshared/66ea/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:2341]
+INFO: [Synth 8-256] done synthesizing module 'axi_lite_ipif' (4#1) [/home/max/rp_ref/nand/vivado/nand.gen/sources_1/bd/main_dsn/ipshared/66ea/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:2948]
+INFO: [Synth 8-638] synthesizing module 'GPIO_Core' [/home/max/rp_ref/nand/vivado/nand.gen/sources_1/bd/main_dsn/ipshared/65b4/hdl/axi_gpio_v2_0_vh_rfs.vhd:178]
+INFO: [Synth 8-226] default block is never used [/home/max/rp_ref/nand/vivado/nand.gen/sources_1/bd/main_dsn/ipshared/65b4/hdl/axi_gpio_v2_0_vh_rfs.vhd:443]
+INFO: [Synth 8-638] synthesizing module 'cdc_sync' [/home/max/rp_ref/nand/vivado/nand.gen/sources_1/bd/main_dsn/ipshared/ef1e/hdl/lib_cdc_v1_0_rfs.vhd:106]
+	Parameter INIT bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'CROSS2_PLEVEL_IN2SCNDRY_IN_cdc_to' to cell 'FDR' [/home/max/rp_ref/nand/vivado/nand.gen/sources_1/bd/main_dsn/ipshared/ef1e/hdl/lib_cdc_v1_0_rfs.vhd:736]
+	Parameter INIT bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'CROSS2_PLEVEL_IN2SCNDRY_s_level_out_bus_d2' to cell 'FDR' [/home/max/rp_ref/nand/vivado/nand.gen/sources_1/bd/main_dsn/ipshared/ef1e/hdl/lib_cdc_v1_0_rfs.vhd:772]
+	Parameter INIT bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'CROSS2_PLEVEL_IN2SCNDRY_s_level_out_bus_d3' to cell 'FDR' [/home/max/rp_ref/nand/vivado/nand.gen/sources_1/bd/main_dsn/ipshared/ef1e/hdl/lib_cdc_v1_0_rfs.vhd:788]
+	Parameter INIT bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'CROSS2_PLEVEL_IN2SCNDRY_s_level_out_bus_d4' to cell 'FDR' [/home/max/rp_ref/nand/vivado/nand.gen/sources_1/bd/main_dsn/ipshared/ef1e/hdl/lib_cdc_v1_0_rfs.vhd:804]
+	Parameter INIT bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'CROSS2_PLEVEL_IN2SCNDRY_s_level_out_bus_d5' to cell 'FDR' [/home/max/rp_ref/nand/vivado/nand.gen/sources_1/bd/main_dsn/ipshared/ef1e/hdl/lib_cdc_v1_0_rfs.vhd:821]
+	Parameter INIT bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'CROSS2_PLEVEL_IN2SCNDRY_s_level_out_bus_d6' to cell 'FDR' [/home/max/rp_ref/nand/vivado/nand.gen/sources_1/bd/main_dsn/ipshared/ef1e/hdl/lib_cdc_v1_0_rfs.vhd:837]
+INFO: [Synth 8-256] done synthesizing module 'cdc_sync' (5#1) [/home/max/rp_ref/nand/vivado/nand.gen/sources_1/bd/main_dsn/ipshared/ef1e/hdl/lib_cdc_v1_0_rfs.vhd:106]
+INFO: [Synth 8-256] done synthesizing module 'GPIO_Core' (6#1) [/home/max/rp_ref/nand/vivado/nand.gen/sources_1/bd/main_dsn/ipshared/65b4/hdl/axi_gpio_v2_0_vh_rfs.vhd:178]
+INFO: [Synth 8-256] done synthesizing module 'axi_gpio' (7#1) [/home/max/rp_ref/nand/vivado/nand.gen/sources_1/bd/main_dsn/ipshared/65b4/hdl/axi_gpio_v2_0_vh_rfs.vhd:1351]
+INFO: [Synth 8-256] done synthesizing module 'main_dsn_axi_gpio_1_0' (8#1) [/home/max/rp_ref/nand/vivado/nand.gen/sources_1/bd/main_dsn/ip/main_dsn_axi_gpio_1_0/synth/main_dsn_axi_gpio_1_0.vhd:84]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:09 ; elapsed = 00:00:10 . Memory (MB): peak = 2466.289 ; gain = 0.000 ; free physical = 7999 ; free virtual = 16998
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:10 ; elapsed = 00:00:10 . Memory (MB): peak = 2466.289 ; gain = 0.000 ; free physical = 11145 ; free virtual = 20147
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:10 ; elapsed = 00:00:10 . Memory (MB): peak = 2466.289 ; gain = 0.000 ; free physical = 11142 ; free virtual = 20144
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00.01 ; elapsed = 00:00:00.01 . Memory (MB): peak = 2466.289 ; gain = 0.000 ; free physical = 11089 ; free virtual = 20091
+INFO: [Netlist 29-17] Analyzing 6 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [/home/max/rp_ref/nand/vivado/nand.gen/sources_1/bd/main_dsn/ip/main_dsn_axi_gpio_1_0/main_dsn_axi_gpio_1_0_ooc.xdc] for cell 'U0'
+Finished Parsing XDC File [/home/max/rp_ref/nand/vivado/nand.gen/sources_1/bd/main_dsn/ip/main_dsn_axi_gpio_1_0/main_dsn_axi_gpio_1_0_ooc.xdc] for cell 'U0'
+Parsing XDC File [/home/max/rp_ref/nand/vivado/nand.gen/sources_1/bd/main_dsn/ip/main_dsn_axi_gpio_1_0/main_dsn_axi_gpio_1_0_board.xdc] for cell 'U0'
+Finished Parsing XDC File [/home/max/rp_ref/nand/vivado/nand.gen/sources_1/bd/main_dsn/ip/main_dsn_axi_gpio_1_0/main_dsn_axi_gpio_1_0_board.xdc] for cell 'U0'
+Parsing XDC File [/home/max/rp_ref/nand/vivado/nand.gen/sources_1/bd/main_dsn/ip/main_dsn_axi_gpio_1_0/main_dsn_axi_gpio_1_0.xdc] for cell 'U0'
+Finished Parsing XDC File [/home/max/rp_ref/nand/vivado/nand.gen/sources_1/bd/main_dsn/ip/main_dsn_axi_gpio_1_0/main_dsn_axi_gpio_1_0.xdc] for cell 'U0'
+Parsing XDC File [/home/max/rp_ref/nand/vivado/nand.runs/main_dsn_axi_gpio_1_0_synth_1/dont_touch.xdc]
+Finished Parsing XDC File [/home/max/rp_ref/nand/vivado/nand.runs/main_dsn_axi_gpio_1_0_synth_1/dont_touch.xdc]
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2530.320 ; gain = 0.000 ; free physical = 11538 ; free virtual = 20558
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 6 instances were transformed.
+  FDR => FDRE: 6 instances
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00.02 ; elapsed = 00:00:00.02 . Memory (MB): peak = 2530.320 ; gain = 0.000 ; free physical = 11528 ; free virtual = 20547
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:18 ; elapsed = 00:00:20 . Memory (MB): peak = 2530.320 ; gain = 64.031 ; free physical = 11720 ; free virtual = 20769
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7z045ffg900-2
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:18 ; elapsed = 00:00:20 . Memory (MB): peak = 2530.320 ; gain = 64.031 ; free physical = 11718 ; free virtual = 20767
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+Applied set_property KEEP_HIERARCHY = SOFT for U0. (constraint file  /home/max/rp_ref/nand/vivado/nand.runs/main_dsn_axi_gpio_1_0_synth_1/dont_touch.xdc, line 9).
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:18 ; elapsed = 00:00:20 . Memory (MB): peak = 2530.320 ; gain = 64.031 ; free physical = 11712 ; free virtual = 20762
+---------------------------------------------------------------------------------
+INFO: [Synth 8-802] inferred FSM for state register 'state_reg' in module 'slave_attachment'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                 iSTATE2 |                             0001 |                               00
+                  iSTATE |                             0010 |                               01
+                 iSTATE0 |                             0100 |                               10
+                 iSTATE1 |                             1000 |                               11
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'state_reg' using encoding 'one-hot' in module 'slave_attachment'
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:19 ; elapsed = 00:00:20 . Memory (MB): peak = 2530.320 ; gain = 64.031 ; free physical = 11698 ; free virtual = 20749
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input    4 Bit       Adders := 1     
++---Registers : 
+	               32 Bit    Registers := 3     
+	                9 Bit    Registers := 1     
+	                4 Bit    Registers := 1     
+	                2 Bit    Registers := 3     
+	                1 Bit    Registers := 20    
++---Muxes : 
+	   5 Input   32 Bit        Muxes := 1     
+	   2 Input   32 Bit        Muxes := 1     
+	   2 Input    9 Bit        Muxes := 1     
+	   4 Input    4 Bit        Muxes := 1     
+	   2 Input    4 Bit        Muxes := 5     
+	   7 Input    2 Bit        Muxes := 1     
+	   2 Input    2 Bit        Muxes := 2     
+	   2 Input    1 Bit        Muxes := 9     
+	   4 Input    1 Bit        Muxes := 3     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 900 (col length:140)
+BRAMs: 1090 (col length: RAMB18 140 RAMB36 70)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:21 ; elapsed = 00:00:22 . Memory (MB): peak = 2530.320 ; gain = 64.031 ; free physical = 11671 ; free virtual = 20727
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:29 ; elapsed = 00:00:30 . Memory (MB): peak = 2530.320 ; gain = 64.031 ; free physical = 11170 ; free virtual = 20235
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:29 ; elapsed = 00:00:31 . Memory (MB): peak = 2530.320 ; gain = 64.031 ; free physical = 11176 ; free virtual = 20241
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:29 ; elapsed = 00:00:31 . Memory (MB): peak = 2530.320 ; gain = 64.031 ; free physical = 11172 ; free virtual = 20238
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:34 ; elapsed = 00:00:36 . Memory (MB): peak = 2530.320 ; gain = 64.031 ; free physical = 11220 ; free virtual = 20301
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:34 ; elapsed = 00:00:36 . Memory (MB): peak = 2530.320 ; gain = 64.031 ; free physical = 11220 ; free virtual = 20301
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:34 ; elapsed = 00:00:36 . Memory (MB): peak = 2530.320 ; gain = 64.031 ; free physical = 11218 ; free virtual = 20299
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:34 ; elapsed = 00:00:36 . Memory (MB): peak = 2530.320 ; gain = 64.031 ; free physical = 11218 ; free virtual = 20298
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:34 ; elapsed = 00:00:36 . Memory (MB): peak = 2530.320 ; gain = 64.031 ; free physical = 11217 ; free virtual = 20297
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:34 ; elapsed = 00:00:36 . Memory (MB): peak = 2530.320 ; gain = 64.031 ; free physical = 11217 ; free virtual = 20297
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-----+------+
+|      |Cell |Count |
++------+-----+------+
+|1     |LUT1 |     2|
+|2     |LUT2 |     9|
+|3     |LUT3 |     9|
+|4     |LUT4 |     3|
+|5     |LUT5 |    10|
+|6     |LUT6 |    10|
+|7     |FDRE |    35|
+|8     |FDSE |     1|
++------+-----+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:34 ; elapsed = 00:00:36 . Memory (MB): peak = 2530.320 ; gain = 64.031 ; free physical = 11216 ; free virtual = 20296
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 0 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:31 ; elapsed = 00:00:33 . Memory (MB): peak = 2530.320 ; gain = 0.000 ; free physical = 11243 ; free virtual = 20323
+Synthesis Optimization Complete : Time (s): cpu = 00:00:35 ; elapsed = 00:00:36 . Memory (MB): peak = 2530.320 ; gain = 64.031 ; free physical = 11240 ; free virtual = 20321
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00.01 ; elapsed = 00:00:00.01 . Memory (MB): peak = 2530.320 ; gain = 0.000 ; free physical = 11227 ; free virtual = 20308
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2530.320 ; gain = 0.000 ; free physical = 11523 ; free virtual = 20602
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Synth Design complete, checksum: f4af829a
+INFO: [Common 17-83] Releasing license: Synthesis
+47 Infos, 0 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:50 ; elapsed = 00:00:42 . Memory (MB): peak = 2530.320 ; gain = 72.035 ; free physical = 11661 ; free virtual = 20739
+INFO: [Common 17-1381] The checkpoint '/home/max/rp_ref/nand/vivado/nand.runs/main_dsn_axi_gpio_1_0_synth_1/main_dsn_axi_gpio_1_0.dcp' has been generated.
+INFO: [Coretcl 2-1648] Added synthesis output to IP cache for IP main_dsn_axi_gpio_1_0, cache-ID = 5bc240e41866ad5d
+INFO: [Coretcl 2-1174] Renamed 7 cell refs.
+INFO: [Common 17-1381] The checkpoint '/home/max/rp_ref/nand/vivado/nand.runs/main_dsn_axi_gpio_1_0_synth_1/main_dsn_axi_gpio_1_0.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file main_dsn_axi_gpio_1_0_utilization_synth.rpt -pb main_dsn_axi_gpio_1_0_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Sun Aug  8 11:56:52 2021...

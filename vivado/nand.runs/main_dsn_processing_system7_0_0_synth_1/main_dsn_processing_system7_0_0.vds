@@ -1,0 +1,228 @@
+#-----------------------------------------------------------
+# Vivado v2021.1 (64-bit)
+# SW Build 3247384 on Thu Jun 10 19:36:07 MDT 2021
+# IP Build 3246043 on Fri Jun 11 00:30:35 MDT 2021
+# Start of session at: Sun Aug  8 11:55:49 2021
+# Process ID: 31391
+# Current directory: /home/max/rp_ref/nand/vivado/nand.runs/main_dsn_processing_system7_0_0_synth_1
+# Command line: vivado -log main_dsn_processing_system7_0_0.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source main_dsn_processing_system7_0_0.tcl
+# Log file: /home/max/rp_ref/nand/vivado/nand.runs/main_dsn_processing_system7_0_0_synth_1/main_dsn_processing_system7_0_0.vds
+# Journal file: /home/max/rp_ref/nand/vivado/nand.runs/main_dsn_processing_system7_0_0_synth_1/vivado.jou
+#-----------------------------------------------------------
+source main_dsn_processing_system7_0_0.tcl -notrace
+Command: synth_design -top main_dsn_processing_system7_0_0 -part xc7z045ffg900-2 -mode out_of_context
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7z045'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7z045'
+INFO: [Device 21-403] Loading part xc7z045ffg900-2
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 4 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 31737
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 2457.258 ; gain = 0.000 ; free physical = 8259 ; free virtual = 17250
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'main_dsn_processing_system7_0_0' [/home/max/rp_ref/nand/vivado/nand.gen/sources_1/bd/main_dsn/ip/main_dsn_processing_system7_0_0/synth/main_dsn_processing_system7_0_0.v:60]
+INFO: [Synth 8-6157] synthesizing module 'processing_system7_v5_5_processing_system7' [/home/max/rp_ref/nand/vivado/nand.gen/sources_1/bd/main_dsn/ip/main_dsn_processing_system7_0_0/hdl/verilog/processing_system7_v5_5_processing_system7.v:162]
+INFO: [Synth 8-6157] synthesizing module 'BUFG' [/tools/Xilinx/Vivado/2021.1/scripts/rt/data/unisim_comp.v:1083]
+INFO: [Synth 8-6155] done synthesizing module 'BUFG' (1#1) [/tools/Xilinx/Vivado/2021.1/scripts/rt/data/unisim_comp.v:1083]
+INFO: [Synth 8-6157] synthesizing module 'BIBUF' [/tools/Xilinx/Vivado/2021.1/scripts/rt/data/unisim_comp.v:730]
+INFO: [Synth 8-6155] done synthesizing module 'BIBUF' (2#1) [/tools/Xilinx/Vivado/2021.1/scripts/rt/data/unisim_comp.v:730]
+INFO: [Synth 8-6157] synthesizing module 'PS7' [/tools/Xilinx/Vivado/2021.1/scripts/rt/data/unisim_comp.v:84961]
+INFO: [Synth 8-6155] done synthesizing module 'PS7' (3#1) [/tools/Xilinx/Vivado/2021.1/scripts/rt/data/unisim_comp.v:84961]
+INFO: [Synth 8-6155] done synthesizing module 'processing_system7_v5_5_processing_system7' (4#1) [/home/max/rp_ref/nand/vivado/nand.gen/sources_1/bd/main_dsn/ip/main_dsn_processing_system7_0_0/hdl/verilog/processing_system7_v5_5_processing_system7.v:162]
+WARNING: [Synth 8-7071] port 'M_AXI_GP0_ARESETN' of module 'processing_system7_v5_5_processing_system7' is unconnected for instance 'inst' [/home/max/rp_ref/nand/vivado/nand.gen/sources_1/bd/main_dsn/ip/main_dsn_processing_system7_0_0/synth/main_dsn_processing_system7_0_0.v:329]
+WARNING: [Synth 8-7071] port 'M_AXI_GP1_ARESETN' of module 'processing_system7_v5_5_processing_system7' is unconnected for instance 'inst' [/home/max/rp_ref/nand/vivado/nand.gen/sources_1/bd/main_dsn/ip/main_dsn_processing_system7_0_0/synth/main_dsn_processing_system7_0_0.v:329]
+WARNING: [Synth 8-7071] port 'S_AXI_GP0_ARESETN' of module 'processing_system7_v5_5_processing_system7' is unconnected for instance 'inst' [/home/max/rp_ref/nand/vivado/nand.gen/sources_1/bd/main_dsn/ip/main_dsn_processing_system7_0_0/synth/main_dsn_processing_system7_0_0.v:329]
+WARNING: [Synth 8-7071] port 'S_AXI_GP1_ARESETN' of module 'processing_system7_v5_5_processing_system7' is unconnected for instance 'inst' [/home/max/rp_ref/nand/vivado/nand.gen/sources_1/bd/main_dsn/ip/main_dsn_processing_system7_0_0/synth/main_dsn_processing_system7_0_0.v:329]
+WARNING: [Synth 8-7071] port 'S_AXI_ACP_ARESETN' of module 'processing_system7_v5_5_processing_system7' is unconnected for instance 'inst' [/home/max/rp_ref/nand/vivado/nand.gen/sources_1/bd/main_dsn/ip/main_dsn_processing_system7_0_0/synth/main_dsn_processing_system7_0_0.v:329]
+WARNING: [Synth 8-7071] port 'S_AXI_HP0_ARESETN' of module 'processing_system7_v5_5_processing_system7' is unconnected for instance 'inst' [/home/max/rp_ref/nand/vivado/nand.gen/sources_1/bd/main_dsn/ip/main_dsn_processing_system7_0_0/synth/main_dsn_processing_system7_0_0.v:329]
+WARNING: [Synth 8-7071] port 'S_AXI_HP1_ARESETN' of module 'processing_system7_v5_5_processing_system7' is unconnected for instance 'inst' [/home/max/rp_ref/nand/vivado/nand.gen/sources_1/bd/main_dsn/ip/main_dsn_processing_system7_0_0/synth/main_dsn_processing_system7_0_0.v:329]
+WARNING: [Synth 8-7071] port 'S_AXI_HP2_ARESETN' of module 'processing_system7_v5_5_processing_system7' is unconnected for instance 'inst' [/home/max/rp_ref/nand/vivado/nand.gen/sources_1/bd/main_dsn/ip/main_dsn_processing_system7_0_0/synth/main_dsn_processing_system7_0_0.v:329]
+WARNING: [Synth 8-7071] port 'S_AXI_HP3_ARESETN' of module 'processing_system7_v5_5_processing_system7' is unconnected for instance 'inst' [/home/max/rp_ref/nand/vivado/nand.gen/sources_1/bd/main_dsn/ip/main_dsn_processing_system7_0_0/synth/main_dsn_processing_system7_0_0.v:329]
+WARNING: [Synth 8-7071] port 'DMA0_RSTN' of module 'processing_system7_v5_5_processing_system7' is unconnected for instance 'inst' [/home/max/rp_ref/nand/vivado/nand.gen/sources_1/bd/main_dsn/ip/main_dsn_processing_system7_0_0/synth/main_dsn_processing_system7_0_0.v:329]
+WARNING: [Synth 8-7071] port 'DMA1_RSTN' of module 'processing_system7_v5_5_processing_system7' is unconnected for instance 'inst' [/home/max/rp_ref/nand/vivado/nand.gen/sources_1/bd/main_dsn/ip/main_dsn_processing_system7_0_0/synth/main_dsn_processing_system7_0_0.v:329]
+WARNING: [Synth 8-7071] port 'DMA2_RSTN' of module 'processing_system7_v5_5_processing_system7' is unconnected for instance 'inst' [/home/max/rp_ref/nand/vivado/nand.gen/sources_1/bd/main_dsn/ip/main_dsn_processing_system7_0_0/synth/main_dsn_processing_system7_0_0.v:329]
+WARNING: [Synth 8-7071] port 'DMA3_RSTN' of module 'processing_system7_v5_5_processing_system7' is unconnected for instance 'inst' [/home/max/rp_ref/nand/vivado/nand.gen/sources_1/bd/main_dsn/ip/main_dsn_processing_system7_0_0/synth/main_dsn_processing_system7_0_0.v:329]
+WARNING: [Synth 8-7023] instance 'inst' of module 'processing_system7_v5_5_processing_system7' has 685 connections declared, but only 672 given [/home/max/rp_ref/nand/vivado/nand.gen/sources_1/bd/main_dsn/ip/main_dsn_processing_system7_0_0/synth/main_dsn_processing_system7_0_0.v:329]
+INFO: [Synth 8-6155] done synthesizing module 'main_dsn_processing_system7_0_0' (5#1) [/home/max/rp_ref/nand/vivado/nand.gen/sources_1/bd/main_dsn/ip/main_dsn_processing_system7_0_0/synth/main_dsn_processing_system7_0_0.v:60]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:09 ; elapsed = 00:00:09 . Memory (MB): peak = 2457.258 ; gain = 0.000 ; free physical = 9515 ; free virtual = 18518
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:10 ; elapsed = 00:00:10 . Memory (MB): peak = 2457.258 ; gain = 0.000 ; free physical = 11244 ; free virtual = 20246
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:10 ; elapsed = 00:00:10 . Memory (MB): peak = 2457.258 ; gain = 0.000 ; free physical = 11243 ; free virtual = 20246
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00.02 ; elapsed = 00:00:00.02 . Memory (MB): peak = 2457.258 ; gain = 0.000 ; free physical = 11866 ; free virtual = 20868
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [/home/max/rp_ref/nand/vivado/nand.gen/sources_1/bd/main_dsn/ip/main_dsn_processing_system7_0_0/main_dsn_processing_system7_0_0.xdc] for cell 'inst'
+Finished Parsing XDC File [/home/max/rp_ref/nand/vivado/nand.gen/sources_1/bd/main_dsn/ip/main_dsn_processing_system7_0_0/main_dsn_processing_system7_0_0.xdc] for cell 'inst'
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [/home/max/rp_ref/nand/vivado/nand.gen/sources_1/bd/main_dsn/ip/main_dsn_processing_system7_0_0/main_dsn_processing_system7_0_0.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/main_dsn_processing_system7_0_0_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/main_dsn_processing_system7_0_0_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Parsing XDC File [/home/max/rp_ref/nand/vivado/nand.runs/main_dsn_processing_system7_0_0_synth_1/dont_touch.xdc]
+Finished Parsing XDC File [/home/max/rp_ref/nand/vivado/nand.runs/main_dsn_processing_system7_0_0_synth_1/dont_touch.xdc]
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2521.289 ; gain = 0.000 ; free physical = 11388 ; free virtual = 20412
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00.04 ; elapsed = 00:00:00.04 . Memory (MB): peak = 2521.289 ; gain = 0.000 ; free physical = 11392 ; free virtual = 20415
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:20 ; elapsed = 00:00:21 . Memory (MB): peak = 2521.289 ; gain = 64.031 ; free physical = 11653 ; free virtual = 20708
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7z045ffg900-2
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:20 ; elapsed = 00:00:21 . Memory (MB): peak = 2521.289 ; gain = 64.031 ; free physical = 11662 ; free virtual = 20717
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+Applied set_property KEEP_HIERARCHY = SOFT for inst. (constraint file  /home/max/rp_ref/nand/vivado/nand.runs/main_dsn_processing_system7_0_0_synth_1/dont_touch.xdc, line 9).
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:21 ; elapsed = 00:00:22 . Memory (MB): peak = 2521.289 ; gain = 64.031 ; free physical = 11643 ; free virtual = 20699
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:22 ; elapsed = 00:00:23 . Memory (MB): peak = 2521.289 ; gain = 64.031 ; free physical = 11564 ; free virtual = 20620
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 900 (col length:140)
+BRAMs: 1090 (col length: RAMB18 140 RAMB36 70)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:23 ; elapsed = 00:00:24 . Memory (MB): peak = 2521.289 ; gain = 64.031 ; free physical = 11496 ; free virtual = 20556
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:32 ; elapsed = 00:00:33 . Memory (MB): peak = 2541.273 ; gain = 84.016 ; free physical = 10994 ; free virtual = 20066
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:32 ; elapsed = 00:00:33 . Memory (MB): peak = 2560.281 ; gain = 103.023 ; free physical = 10980 ; free virtual = 20052
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:32 ; elapsed = 00:00:33 . Memory (MB): peak = 2576.297 ; gain = 119.039 ; free physical = 10960 ; free virtual = 20032
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:37 ; elapsed = 00:00:38 . Memory (MB): peak = 2579.266 ; gain = 122.008 ; free physical = 11586 ; free virtual = 20658
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:37 ; elapsed = 00:00:38 . Memory (MB): peak = 2579.266 ; gain = 122.008 ; free physical = 11586 ; free virtual = 20658
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:37 ; elapsed = 00:00:38 . Memory (MB): peak = 2579.266 ; gain = 122.008 ; free physical = 11590 ; free virtual = 20662
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:37 ; elapsed = 00:00:38 . Memory (MB): peak = 2579.266 ; gain = 122.008 ; free physical = 11590 ; free virtual = 20661
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:37 ; elapsed = 00:00:38 . Memory (MB): peak = 2579.266 ; gain = 122.008 ; free physical = 11589 ; free virtual = 20661
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:37 ; elapsed = 00:00:38 . Memory (MB): peak = 2579.266 ; gain = 122.008 ; free physical = 11588 ; free virtual = 20659
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+------+------+
+|      |Cell  |Count |
++------+------+------+
+|1     |BIBUF |   130|
+|2     |BUFG  |     1|
+|3     |LUT1  |    24|
+|4     |PS7   |     1|
++------+------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:37 ; elapsed = 00:00:38 . Memory (MB): peak = 2579.266 ; gain = 122.008 ; free physical = 11588 ; free virtual = 20659
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 0 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:33 ; elapsed = 00:00:35 . Memory (MB): peak = 2579.266 ; gain = 57.977 ; free physical = 11646 ; free virtual = 20713
+Synthesis Optimization Complete : Time (s): cpu = 00:00:37 ; elapsed = 00:00:39 . Memory (MB): peak = 2579.273 ; gain = 122.008 ; free physical = 11646 ; free virtual = 20713
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00.03 ; elapsed = 00:00:00.02 . Memory (MB): peak = 2579.273 ; gain = 0.000 ; free physical = 11631 ; free virtual = 20698
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2600.078 ; gain = 0.000 ; free physical = 13815 ; free virtual = 22882
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Synth Design complete, checksum: 5ff1bed7
+INFO: [Common 17-83] Releasing license: Synthesis
+23 Infos, 14 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:53 ; elapsed = 00:00:45 . Memory (MB): peak = 2600.078 ; gain = 150.824 ; free physical = 15237 ; free virtual = 24304
+INFO: [Common 17-1381] The checkpoint '/home/max/rp_ref/nand/vivado/nand.runs/main_dsn_processing_system7_0_0_synth_1/main_dsn_processing_system7_0_0.dcp' has been generated.
+INFO: [Coretcl 2-1648] Added synthesis output to IP cache for IP main_dsn_processing_system7_0_0, cache-ID = 247b4e57e5662519
+INFO: [Common 17-1381] The checkpoint '/home/max/rp_ref/nand/vivado/nand.runs/main_dsn_processing_system7_0_0_synth_1/main_dsn_processing_system7_0_0.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file main_dsn_processing_system7_0_0_utilization_synth.rpt -pb main_dsn_processing_system7_0_0_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Sun Aug  8 11:56:55 2021...

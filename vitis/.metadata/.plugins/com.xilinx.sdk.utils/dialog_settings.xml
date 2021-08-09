@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<item key="scw_hwspec" value="/home/max/rp_ref/nand/vivado"/>
+	<item key="sdx_program_fpga_view_bit_bmm_browse_key" value="/home/max/rp_ref/nand/vivado/nand.runs/impl_1"/>
+</section>

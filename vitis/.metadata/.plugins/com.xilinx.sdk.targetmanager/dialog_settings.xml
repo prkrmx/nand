@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<item key="not_gate_system-bitFile" value="/home/max/rp_ref/nand/vivado/nand.runs/impl_1/main_dsn_wrapper.bit"/>
+	<item key="not_gate_system-bmmFile" value=""/>
+	<item key="not_gate_system-target" value="Local"/>
+	<item key="not_gate_system-device" value="Auto Detect"/>
+	<item key="not_gate_system-partial_bit" value="false"/>
+	<item key="not_gate_system-skip_rev_check" value="false"/>
+	<item key="programfpga.sdxproject" value="not_gate_system"/>
+	<item key="devices_info_Local" value="{&quot;cables&quot;:[{&quot;name&quot;:&quot;Digilent JTAG-SMT2 210251AC3249&quot;,&quot;indexContextMap&quot;:{&quot;2&quot;:&quot;jsn-JTAG-SMT2-210251AC3249-4ba00477-0&quot;,&quot;3&quot;:&quot;jsn-JTAG-SMT2-210251AC3249-23731093-0&quot;}}]}"/>
+</section>

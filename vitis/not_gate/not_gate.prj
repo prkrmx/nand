@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="ASCII"?>
+<sdkproject:SdkProject xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:sdkproject="http://www.xilinx.com/sdkproject" name="not_gate" location="/home/max/rp_ref/nand/vitis/not_gate" platform="/home/max/rp_ref/nand/vitis/nand/export/nand/nand.xpfm" platformUID="xilinx:zc706::0.0(custom)" systemProject="not_gate_system" sysConfig="nand" runtime="C/C++" cpu="standalone_domain" cpuInstance="ps7_cortexa9_0" os="standalone" mssSignature="37697d18b004d0c0308a3546a76a0a58">
+  <configuration name="Debug" id="xilinx.gnu.armv7.exe.debug.758631687">
+    <configBuildOptions xsi:type="sdkproject:SdkOptions"/>
+    <lastBuildOptions xsi:type="sdkproject:SdkOptions"/>
+  </configuration>
+  <configuration name="Release" id="xilinx.gnu.armv7.exe.release.783552221" dirty="true">
+    <configBuildOptions xsi:type="sdkproject:SdkOptions"/>
+  </configuration>
+  <template appTemplateName="hello_world"/>
+</sdkproject:SdkProject>

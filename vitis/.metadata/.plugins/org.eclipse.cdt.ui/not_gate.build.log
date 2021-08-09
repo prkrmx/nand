@@ -1,0 +1,29 @@
+17:32:22 **** Incremental Build of configuration Debug for project not_gate ****
+make all 
+make --no-print-directory pre-build
+a9-linaro-pre-build-step
+ 
+make --no-print-directory main-build
+Building file: ../src/not_gate.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/not_gate.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I/home/max/rp_ref/nand/vitis/nand/export/nand/sw/nand/standalone_domain/bspinclude/include -MMD -MP -MF"src/not_gate.d" -MT"src/not_gate.o" -o "src/not_gate.o" "../src/not_gate.c"
+../src/not_gate.c: In function 'main':
+../src/not_gate.c:29:6: warning: unused variable 'a' [-Wunused-variable]
+   29 |  int a;
+      |      ^
+Finished building: ../src/not_gate.c
+ 
+Building target: not_gate.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L/home/max/rp_ref/nand/vitis/nand/export/nand/sw/nand/standalone_domain/bsplib/lib -o "not_gate.elf"  ./src/not_gate.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: not_gate.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size not_gate.elf  |tee "not_gate.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  20380	   1176	  22584	  44140	   ac6c	not_gate.elf
+Finished building: not_gate.elf.size
+ 
+
+17:32:22 Build Finished (took 348ms)
+

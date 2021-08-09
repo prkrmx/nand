@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2021.1 (64-bit)
+# SW Build 3247384 on Thu Jun 10 19:36:07 MDT 2021
+# IP Build 3246043 on Fri Jun 11 00:30:35 MDT 2021
+# Start of session at: Sun Aug  8 11:55:49 2021
+# Process ID: 31391
+# Current directory: /home/max/rp_ref/nand/vivado/nand.runs/main_dsn_processing_system7_0_0_synth_1
+# Command line: vivado -log main_dsn_processing_system7_0_0.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source main_dsn_processing_system7_0_0.tcl
+# Log file: /home/max/rp_ref/nand/vivado/nand.runs/main_dsn_processing_system7_0_0_synth_1/main_dsn_processing_system7_0_0.vds
+# Journal file: /home/max/rp_ref/nand/vivado/nand.runs/main_dsn_processing_system7_0_0_synth_1/vivado.jou
+#-----------------------------------------------------------
+source main_dsn_processing_system7_0_0.tcl -notrace
